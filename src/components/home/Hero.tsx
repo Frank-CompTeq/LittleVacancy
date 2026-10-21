@@ -55,9 +55,9 @@ export function Hero({ hubCities = [] }: HeroProps) {
                   id="hub-city"
                   value={selectedCity}
                   onChange={(e) => setSelectedCity(e.target.value)}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all"
+                  className="w-full md:min-w-[200px] px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-800 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all"
                 >
-                  <option value="">Select your departure city...</option>
+                  <option value="">Your departure city</option>
                   {hubCities.map((city) => (
                     <option key={city.slug} value={city.slug}>
                       {city.name}, {city.state}

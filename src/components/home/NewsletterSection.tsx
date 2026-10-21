@@ -56,7 +56,7 @@ export function NewsletterSection() {
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
                 required
-                className="flex-1 px-4 py-3 rounded-lg border-0 focus:ring-2 focus:ring-accent outline-none text-gray-900"
+                className="flex-1 px-4 py-3 rounded-lg border-0 bg-white focus:ring-2 focus:ring-accent outline-none text-gray-900 placeholder:text-gray-500"
               />
               <Button
                 type="submit"

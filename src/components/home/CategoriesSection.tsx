@@ -28,7 +28,7 @@ export function CategoriesSection() {
             >
               <div className="bg-secondary-light rounded-xl p-6 text-center h-full transition-all hover:bg-secondary hover:shadow-lg group-hover:-translate-y-1">
                 <span className="text-4xl block mb-4">{category.icon}</span>
-                <h3 className="font-display font-semibold text-primary group-hover:text-accent transition-colors mb-2">
+                <h3 className="font-display text-xl font-semibold text-primary group-hover:text-accent transition-colors mb-2">
                   {category.name}
                 </h3>
                 <p className="text-sm text-gray-700 line-clamp-2">

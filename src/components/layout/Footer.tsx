@@ -72,7 +72,7 @@ export function Footer() {
 
           {/* Explore Column */}
           <div>
-            <h3 className="font-display font-semibold text-lg mb-4">Explore</h3>
+            <h3 className="font-display font-semibold text-lg text-white mb-4">Explore</h3>
             <ul className="space-y-2">
               {footerNavigation.explore.map((item) => (
                 <li key={item.label}>
@@ -89,7 +89,7 @@ export function Footer() {
 
           {/* Resources Column */}
           <div>
-            <h3 className="font-display font-semibold text-lg mb-4">Resources</h3>
+            <h3 className="font-display font-semibold text-lg text-white mb-4">Resources</h3>
             <ul className="space-y-2">
               {footerNavigation.resources.map((item) => (
                 <li key={item.label}>
@@ -106,7 +106,7 @@ export function Footer() {
 
           {/* Company Column */}
           <div>
-            <h3 className="font-display font-semibold text-lg mb-4">Company</h3>
+            <h3 className="font-display font-semibold text-lg text-white mb-4">Company</h3>
             <ul className="space-y-2">
               {footerNavigation.company.map((item) => (
                 <li key={item.label}>
