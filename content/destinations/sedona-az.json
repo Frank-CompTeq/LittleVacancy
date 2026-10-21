@@ -1,0 +1,11 @@
+{
+  "id": "sedona-az",
+  "name": "Sedona",
+  "region": "Southwest",
+  "country": "USA",
+  "description": "Red rock formations and spiritual energy in the Arizona desert",
+  "featuredImage": "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?w=1200",
+  "highlights": ["Cathedral Rock", "Bell Rock", "Vortex Sites", "Jeep Tours"],
+  "bestTimeToVisit": "March-May, September-November",
+  "averageTripCost": "$600-900 per person"
+}

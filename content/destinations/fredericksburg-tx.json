@@ -1,0 +1,11 @@
+{
+  "id": "fredericksburg-tx",
+  "name": "Fredericksburg",
+  "region": "Southwest",
+  "country": "USA",
+  "description": "Texas Hill Country wine trails and German heritage",
+  "featuredImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200",
+  "highlights": ["Wine Country", "Main Street", "Enchanted Rock", "German Cuisine"],
+  "bestTimeToVisit": "March-May, September-November",
+  "averageTripCost": "$400-700 per person"
+}

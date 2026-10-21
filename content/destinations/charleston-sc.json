@@ -1,0 +1,11 @@
+{
+  "id": "charleston-sc",
+  "name": "Charleston",
+  "region": "Southeast",
+  "country": "USA",
+  "description": "Cobblestone streets, antebellum architecture, and world-class dining",
+  "featuredImage": "https://images.unsplash.com/photo-1570793005386-4d5e97d41171?w=1200",
+  "highlights": ["French Quarter", "Rainbow Row", "Fort Sumter", "Beaches"],
+  "bestTimeToVisit": "March-May, September-November",
+  "averageTripCost": "$500-800 per person"
+}

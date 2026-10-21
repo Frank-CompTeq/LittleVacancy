@@ -1,0 +1,11 @@
+{
+  "id": "asheville-nc",
+  "name": "Asheville",
+  "region": "Southeast",
+  "country": "USA",
+  "description": "Mountain vibes, craft beer, and the legendary Biltmore Estate",
+  "featuredImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200",
+  "highlights": ["Biltmore Estate", "Blue Ridge Parkway", "Downtown Arts", "Craft Breweries"],
+  "bestTimeToVisit": "April-May, September-October",
+  "averageTripCost": "$450-700 per person"
+}

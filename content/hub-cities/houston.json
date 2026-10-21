@@ -1,0 +1,9 @@
+{
+  "id": "houston",
+  "name": "Houston",
+  "state": "Texas",
+  "country": "USA",
+  "description": "Gateway to Gulf Coast adventures and Texas Hill Country escapes",
+  "featuredImage": "https://images.unsplash.com/photo-1548519853-4fcc0d3a93a5?w=1200",
+  "nearbyDestinations": ["san-antonio-tx", "fredericksburg-tx"]
+}

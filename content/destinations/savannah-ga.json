@@ -1,0 +1,11 @@
+{
+  "id": "savannah-ga",
+  "name": "Savannah",
+  "region": "Southeast",
+  "country": "USA",
+  "description": "Historic charm meets Southern hospitality in this moss-draped coastal gem",
+  "featuredImage": "https://images.unsplash.com/photo-1587162146766-e06b1189b907?w=1200",
+  "highlights": ["Historic District", "Forsyth Park", "River Street", "Ghost Tours"],
+  "bestTimeToVisit": "March-May, October-November",
+  "averageTripCost": "$400-600 per person"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "dallas",
+  "name": "Dallas",
+  "state": "Texas",
+  "country": "USA",
+  "description": "Central hub for Texas explorations and Southwest road trips",
+  "featuredImage": "https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?w=1200",
+  "nearbyDestinations": ["fredericksburg-tx", "san-antonio-tx"]
+}

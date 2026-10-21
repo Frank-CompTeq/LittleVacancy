@@ -1,0 +1,9 @@
+{
+  "id": "atlanta",
+  "name": "Atlanta",
+  "state": "Georgia",
+  "country": "USA",
+  "description": "Your starting point for Southeast adventures from mountains to coast",
+  "featuredImage": "https://images.unsplash.com/photo-1555334408-2de3e4e39923?w=1200",
+  "nearbyDestinations": ["savannah-ga", "charleston-sc", "asheville-nc"]
+}

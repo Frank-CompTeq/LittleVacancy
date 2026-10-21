@@ -1,36 +1,172 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LittleVacancy.com
+
+A Next.js 16 travel blog focused on weekend getaways and short trips across North America.
+
+## Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Styling:** Tailwind CSS v4
+- **Content:** MDX files (no CMS needed)
+- **Language:** TypeScript
+- **Deployment:** GitHub Actions → Hostinger
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 20+
+- npm 10+
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/your-username/littlevacancy.git
+cd littlevacancy
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+littlevacancy/
+├── content/                # MDX content files
+│   ├── articles/          # Travel guides (.mdx)
+│   ├── authors/           # Author profiles (.json)
+│   ├── categories/        # Trip categories (.json)
+│   ├── destinations/      # Destination info (.json)
+│   └── hub-cities/        # Departure cities (.json)
+├── src/
+│   ├── app/               # Next.js App Router pages
+│   ├── components/        # React components
+│   ├── lib/               # Utilities & content loader
+│   └── types/             # TypeScript types
+└── public/                # Static assets
+```
 
-## Learn More
+## Adding Content
 
-To learn more about Next.js, take a look at the following resources:
+### Create a New Article
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create a new `.mdx` file in `content/articles/`:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```mdx
+---
+title: "Your Article Title"
+excerpt: "Short description for cards and SEO"
+featuredImage: "https://images.unsplash.com/..."
+featuredImageAlt: "Image description"
+categorySlug: "weekend-getaways"
+destinationSlug: "savannah-ga"
+authorSlug: "sarah-chen"
+audience: "couples"  # or "family" or "both"
+duration: "2-3 days"
+publishedAt: "2024-03-15"
+tags: ["romantic", "historic"]
+faqs:
+  - question: "Best time to visit?"
+    answer: "Spring and fall offer the best weather."
+---
 
-## Deploy on Vercel
+## Getting There
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Your content here...
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Where to Stay
+
+More content...
+```
+
+### Add a Destination
+
+Create a `.json` file in `content/destinations/`:
+
+```json
+{
+  "id": "savannah-ga",
+  "name": "Savannah",
+  "region": "Southeast",
+  "country": "USA",
+  "description": "Historic charm meets Southern hospitality",
+  "featuredImage": "https://images.unsplash.com/...",
+  "highlights": ["Historic District", "Forsyth Park"],
+  "bestTimeToVisit": "March-May, October-November",
+  "averageTripCost": "$400-600 per person"
+}
+```
+
+### Add a Category
+
+Create a `.json` file in `content/categories/`:
+
+```json
+{
+  "id": "weekend-getaways",
+  "name": "Weekend Getaways",
+  "description": "Perfect 2-day escapes",
+  "icon": "🌴"
+}
+```
+
+## Design System
+
+### Colors
+
+| Token | Hex | Usage |
+|-------|-----|-------|
+| Primary | `#1B3D2F` | Forest Green - Headers, CTAs |
+| Secondary | `#E8DDD4` | Warm Sand - Backgrounds |
+| Accent | `#E07B54` | Sunset Coral - Links, CTAs |
+
+### Typography
+
+- **Display:** Fraunces (serif)
+- **Body:** Plus Jakarta Sans (sans-serif)
+
+## Deployment
+
+### GitHub Actions (Hostinger)
+
+1. Push to GitHub
+2. Go to Settings → Secrets → Actions
+3. Add secrets:
+   - `FTP_HOST`
+   - `FTP_USERNAME`
+   - `FTP_PASSWORD`
+   - `SITE_URL`
+
+4. Push to `main` to trigger deployment
+
+### Manual Build
+
+```bash
+npm run build
+npm start
+```
+
+## SEO Features
+
+- Dynamic sitemap (`/sitemap.xml`)
+- Robots.txt configuration
+- JSON-LD structured data (Article, FAQ, Breadcrumb)
+- OpenGraph and Twitter meta tags
+
+## Scripts
+
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run start    # Start production server
+npm run lint     # Run ESLint
+```
+
+## License
+
+Private - All rights reserved.
