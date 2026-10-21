@@ -13,7 +13,7 @@ export function CategoriesSection() {
           <h2 className="font-display text-3xl md:text-4xl font-bold text-primary mb-4">
             What Kind of Escape?
           </h2>
-          <p className="text-gray-600">
+          <p className="text-gray-700">
             Whether you're planning a quick weekend away or a longer adventure, we have the perfect guide for your trip type.
           </p>
         </div>
@@ -31,7 +31,7 @@ export function CategoriesSection() {
                 <h3 className="font-display font-semibold text-primary group-hover:text-accent transition-colors mb-2">
                   {category.name}
                 </h3>
-                <p className="text-sm text-gray-600 line-clamp-2">
+                <p className="text-sm text-gray-700 line-clamp-2">
                   {category.description}
                 </p>
               </div>

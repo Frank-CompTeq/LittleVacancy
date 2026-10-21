@@ -44,7 +44,7 @@ export function PageHeader({
             {title}
           </h1>
           {description && (
-            <p className={`text-lg md:text-xl ${image ? 'text-gray-200' : 'text-gray-600'}`}>
+            <p className={`text-lg md:text-xl ${image ? 'text-gray-200' : 'text-gray-700'}`}>
               {description}
             </p>
           )}

@@ -39,7 +39,7 @@ export function Hero({ hubCities = [] }: HeroProps) {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-gray-600 text-lg md:text-xl mb-8 max-w-xl animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          <p className="text-gray-700 text-lg md:text-xl mb-8 max-w-xl animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             Expert guides for families and couples seeking memorable 2-4 day getaways across North America. Plan less, explore more.
           </p>
 
@@ -68,11 +68,11 @@ export function Hero({ hubCities = [] }: HeroProps) {
 
               {/* Audience Filter */}
               <div className="flex gap-2">
-                <button className="px-4 py-3 rounded-lg border border-gray-200 hover:border-accent hover:bg-accent/5 transition-all flex items-center gap-2 text-gray-600 hover:text-accent">
+                <button className="px-4 py-3 rounded-lg border border-gray-300 hover:border-accent hover:bg-accent/5 transition-all flex items-center gap-2 text-gray-700 hover:text-accent">
                   <span>👨‍👩‍👧‍👦</span>
                   <span className="hidden sm:inline">Families</span>
                 </button>
-                <button className="px-4 py-3 rounded-lg border border-gray-200 hover:border-accent hover:bg-accent/5 transition-all flex items-center gap-2 text-gray-600 hover:text-accent">
+                <button className="px-4 py-3 rounded-lg border border-gray-300 hover:border-accent hover:bg-accent/5 transition-all flex items-center gap-2 text-gray-700 hover:text-accent">
                   <span>💑</span>
                   <span className="hidden sm:inline">Couples</span>
                 </button>
@@ -93,7 +93,7 @@ export function Hero({ hubCities = [] }: HeroProps) {
           </div>
 
           {/* Trust Indicators */}
-          <div className="flex flex-wrap items-center gap-6 mt-8 text-sm text-gray-500 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+          <div className="flex flex-wrap items-center gap-6 mt-8 text-sm text-gray-700 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="flex items-center gap-2">
               <svg className="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />

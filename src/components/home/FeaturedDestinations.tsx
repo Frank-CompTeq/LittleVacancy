@@ -70,7 +70,7 @@ export function FeaturedDestinations({ destinations }: FeaturedDestinationsProps
                 <h3 className="font-display text-lg font-semibold text-white group-hover:text-accent-light transition-colors">
                   {destination.name}
                 </h3>
-                <p className="text-gray-300 text-sm">
+                <p className="text-gray-200 text-sm">
                   {destination.region}
                 </p>
               </div>

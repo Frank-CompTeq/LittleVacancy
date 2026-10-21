@@ -34,7 +34,7 @@ export function Header() {
               >
                 <Link
                   href={item.href}
-                  className="text-gray-700 hover:text-primary font-medium transition-colors py-2"
+                  className="text-gray-800 hover:text-primary font-medium transition-colors py-2"
                 >
                   {item.label}
                   {item.children && (
@@ -62,7 +62,7 @@ export function Header() {
                         <Link
                           key={child.label}
                           href={child.href}
-                          className="block px-4 py-2 text-gray-700 hover:bg-secondary-light hover:text-primary transition-colors"
+                          className="block px-4 py-2 text-gray-800 hover:bg-secondary-light hover:text-primary transition-colors"
                         >
                           {child.label}
                         </Link>
@@ -144,7 +144,7 @@ export function Header() {
               <div key={item.label} className="py-2">
                 <Link
                   href={item.href}
-                  className="block py-2 text-gray-700 font-medium hover:text-primary"
+                  className="block py-2 text-gray-800 font-medium hover:text-primary"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {item.label}
@@ -155,7 +155,7 @@ export function Header() {
                       <Link
                         key={child.label}
                         href={child.href}
-                        className="block py-1 text-gray-600 hover:text-primary"
+                        className="block py-1 text-gray-700 hover:text-primary"
                         onClick={() => setMobileMenuOpen(false)}
                       >
                         {child.label}
